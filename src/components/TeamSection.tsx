@@ -24,12 +24,12 @@ import akshat from "../assets/Akshat talwar.jpg";
 const teamMembers = [
   { name: "Utkarsh Chauhan", role: "Organising Head & Lead", img: utkarsh },
   { name: "Khushi Thakur", role: "Organising Head", img: khushi },
+   { name: "Parth Mawai", role: "Organising Head", img: parth },
+  { name: "Vasu Tohangar", role: "Organising Head", img: vasu },
+  { name: "Pari Dudeja", role: "Organising Head", img: pari },
   { name: "Yash Gupta", role: "Mentor", img: yash },
   { name: "Aryan Sachan", role: "Mentor", img: aryan },
-  { name: "Karan Bhatt", role: "Mentor", img: karan },
-  { name: "Pari Dudeja", role: "Mentor", img: pari },
-  { name: "Parth Mawai", role: "Mentor", img: parth },
-  { name: "Vasu Tohangar", role: "Mentor", img: vasu },
+  { name: "Karan Bhatt", role: "Mentor", img: karan },  
   { name: "Samarth Yadav", role: "Mentor", img: samarth },
 ];
 
