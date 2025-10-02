@@ -38,6 +38,7 @@ const coreMembers = [
   { name: "Waqar Akhtar", role: "Team i5", img: waqar },
   { name: "Pawan Yadav", role: "Team i3", img: pawan },
   { name: "Mayank Bisht", role: "Team i3", img: mayank },
+  { name: "Akshat Talwar", role: "Team i9", img: akshat }
 ];
 
 const TeamSection = () => {
