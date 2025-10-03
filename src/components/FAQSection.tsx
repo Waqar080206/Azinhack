@@ -20,10 +20,6 @@ const FAQSection = () => {
       answer: "Yes, Azinhack 2025 is an in-person event. We want to create a vibrant, collaborative environment where you can network and learn from peers.",
     },
     {
-      question: "Do I need to have an idea or team?",
-      answer: "Not at all! You can come with a team or join one at the event. We'll have team formation sessions to help you find the perfect collaborators.",
-    },
-    {
       question: "How much does it cost?",
       answer: "Azinhack is completely FREE! We'll provide meals, snacks, swag, and an amazing experience. All you need to bring is your laptop and enthusiasm!",
     },
