@@ -9,7 +9,7 @@ const PrizesSection = () => {
           <p className="text-4xl font-bold text-black mb-4">
             Over
           </p>
-          <div className="text-8xl md:text-9xl font-black text-magenta">
+          <div className="text-7xl md:text-9xl font-black text-magenta">
             ₹1,00,000+
           </div>
           <p className="text-4xl font-bold text-black mt-4">

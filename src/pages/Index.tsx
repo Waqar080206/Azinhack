@@ -9,7 +9,7 @@ import TeamSection from "@/components/TeamSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import MarqueeRotated from "@/components/MarqueeRotated";
-
+import Tracks from "@/components/Tracks";
 const Index = () => {
   return (
     <div className="min-h-screen">
@@ -18,6 +18,7 @@ const Index = () => {
       <MarqueeRotated/>
       <StatsSection />
       <AboutSection />
+      <Tracks/>
       <ScheduleSection />
       <MarqueeRotated/>
       <PrizesSection />

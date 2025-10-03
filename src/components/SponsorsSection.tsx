@@ -9,12 +9,12 @@ import Image7 from "../assets/Unstop.jpg";
 const sponsors = [
   { img: Image1 },
   { img: Image2 },
-  { img: Image7 },
   //{ img: Image3 },
   { img: Image4 },
   //{ img: Image6 },
 ];
 const mainSponsor = { img: Image5 };
+const goldSponsor = { img: Image7 };
 
 const SponsorsSection = () => {
   return (
@@ -29,15 +29,29 @@ const SponsorsSection = () => {
           </h2>
         </div>
 
-         <div className="flex justify-center mb-16">
+        {/* Title Sponsor and Gold Sponsor Side by Side */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-16">
+          {/* Title Sponsor */}
           <div className="relative bg-white border-4 border-black shadow-bold-sm flex items-center justify-center p-6 hover:scale-105 transition-transform">
             <img
               src={mainSponsor.img}
               className="object-contain w-48 h-48 md:w-52 md:h-52"
-              alt="Main Sponsor"
+              alt="Title Sponsor"
             />
-            <span className="absolute top-2 text-black font-bold text-lg md:text-xl bg-white px-2 rounded">
+            <span className="absolute top-3 text-black font-bold text-lg md:text-xl bg-white px-2 rounded">
               Title Sponsor
+            </span>
+          </div>
+
+          {/* Gold Sponsor */}
+          <div className="relative bg-white border-4 border-black shadow-bold-sm flex items-center justify-center p-6 hover:scale-105 transition-transform">
+            <img
+              src={goldSponsor.img}
+              className="object-contain w-48 h-48 md:w-52 md:h-52"
+              alt="Gold Sponsor"
+            />
+            <span className="absolute top-3 text-black font-bold text-lg md:text-xl bg-white px-2 rounded">
+              Gold Sponsor
             </span>
           </div>
         </div>
@@ -57,8 +71,6 @@ const SponsorsSection = () => {
             </div>
           ))}
         </div>
-
-        
       </div>
     </section>
   );
