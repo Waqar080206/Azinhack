@@ -5,7 +5,7 @@ const UpperMarquee = () => {
         {[...Array(10)].map((_, i) => (
           <div key={i} className="inline-block mx-7 text-2xl md:text-3xl font-black text-black">
             <a
-              href="https://azinhack.xyz/about"
+              href="https://unstop.com/o/C5Iy0bg?lb=fR9xLBdf&utm_medium=Share&utm_source=WhatsApp"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-magenta transition-colors"
@@ -14,7 +14,7 @@ const UpperMarquee = () => {
             </a>
             <span className="mx-2">|</span>
             <a
-              href="https://azinhack.xyz/register"
+              href="https://unstop.com/o/C5Iy0bg?lb=fR9xLBdf&utm_medium=Share&utm_source=WhatsApp"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-magenta transition-colors"

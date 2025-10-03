@@ -93,7 +93,7 @@ const Hero = () => {
       {/* Navigation */}
       <nav className="relative z-10 flex justify-between items-center p-6 md:p-8">
         <a 
-          href="https://iosc-edc.com" 
+          href="https://iosc-edc.club" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-4xl md:text-5xl font-black text-black border-4 border-black px-4 py-2 bg-cyan hover:bg-magenta hover:text-white transition-colors"
@@ -112,7 +112,7 @@ const Hero = () => {
           </a>
          <Button 
             className="bg-magenta text-black font-black text-lg border-4 border-black shadow-bold hover:bg-yellow hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => window.open('https://unstop.com/o/C5Iy0bg?lb=fR9xLBdf&utm_medium=Share&utm_source=WhatsApp', '_blank')}
           >
             APPLY NOW
           </Button>

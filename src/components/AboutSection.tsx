@@ -40,7 +40,7 @@ const AboutSection = () => {
             className="mt-8 bg-magenta text-black font-black text-xl px-8 py-6 border-4 border-black shadow-bold 
                        transition-transform duration-300 ease-in-out 
                        hover:bg-yellow hover:translate-x-2 hover:translate-y-2 hover:shadow-none hover:scale-105 active:scale-95"
-            onClick={() => window.open("https://unstop.com", "_blank")}
+            onClick={() => window.open("https://unstop.com/o/C5Iy0bg?lb=fR9xLBdf&utm_medium=Share&utm_source=WhatsApp", "_blank")}
           >
             APPLY NOW
           </Button>
