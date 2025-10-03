@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import SmileyButton from "@/components/SmileyButton";
 import MarqueeBanner from "@/components/MarqueeBanner"; 
 import UpperMarquee from "@/components/UpperMarquee";
+import Logo from "@/assets/azinhack.jpeg";
 
 function useComponentSize<T extends HTMLElement>() {
   const ref = useRef<T | null>(null);
@@ -91,9 +92,14 @@ const Hero = () => {
     <section className="relative min-h-screen bg-cyan overflow-hidden flex flex-col">
       {/* Navigation */}
       <nav className="relative z-10 flex justify-between items-center p-6 md:p-8">
-        <div className="text-4xl md:text-5xl font-black text-black border-4 border-black px-4 py-2 bg-cyan">
+        <a 
+          href="https://iosc-edc.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-4xl md:text-5xl font-black text-black border-4 border-black px-4 py-2 bg-cyan hover:bg-magenta hover:text-white transition-colors"
+        >
           IoSC EDC
-        </div>
+        </a>
         <div className="flex gap-4 md:gap-6 items-center">
           <a href="#about" className="hidden md:block text-lg font-black text-black hover:text-magenta transition-colors">
             ABOUT
