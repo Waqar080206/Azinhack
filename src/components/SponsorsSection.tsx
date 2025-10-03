@@ -5,6 +5,7 @@ import Image4 from "../assets/keshav.png";
 import Image5 from "../assets/ishacoffefinal.jpeg";
 import Image6 from "../assets/monster.png";
 import Image7 from "../assets/Unstop.jpg";
+import Image8 from "../assets/iblogo.png";
 
 const sponsors = [
   { img: Image1 },
@@ -12,6 +13,7 @@ const sponsors = [
   //{ img: Image3 },
   { img: Image4 },
   //{ img: Image6 },
+  { img: Image8 },
 ];
 const mainSponsor = { img: Image5 };
 const goldSponsor = { img: Image7 };
