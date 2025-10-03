@@ -36,7 +36,7 @@ const FAQSection = () => {
   return (
     <section id="faq" className="relative bg-black py-20 md:py-32 overflow-hidden">
         {/* Decorative shapes */}
-      <div className="absolute top-10 right-10 w-40 h-40 bg-yellow border-4 border-cyan transform rotate-12"></div>
+       <div className="absolute top-10 right-10 w-40 h-40 bg-yellow border-4 border-cyan transform rotate-12 hidden md:block"></div>
       <div className="absolute bottom-10 left-10 w-32 h-32 bg-magenta border-4 border-lime"></div>
       
       <div className="container mx-auto px-6 relative z-10">
