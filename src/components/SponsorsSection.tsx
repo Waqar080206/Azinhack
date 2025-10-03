@@ -51,7 +51,7 @@ const SponsorsSection = () => {
               alt="Gold Sponsor"
             />
             <span className="absolute top-3 text-black font-bold text-lg md:text-xl bg-white px-2 rounded">
-              Gold Sponsor
+              Platform Sponsor
             </span>
           </div>
         </div>

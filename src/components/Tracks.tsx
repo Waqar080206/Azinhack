@@ -3,28 +3,28 @@ const Tracks = () => {
     {
       title: "HealthTech",
       description: "Innovate solutions for healthcare challenges, medical devices, telemedicine, and digital health platforms.",
-      icon: "🏥",
+      icon: "fas fa-heartbeat",
       color: "bg-magenta",
       borderColor: "border-cyan"
     },
     {
       title: "EduTech",
       description: "Transform education with learning management systems, e-learning platforms, and educational tools.",
-      icon: "📚",
+      icon: "fas fa-graduation-cap",
       color: "bg-yellow",
       borderColor: "border-purple"
     },
     {
       title: "FinTech",
       description: "Build financial solutions, payment systems, blockchain applications, and digital banking platforms.",
-      icon: "💰",
+      icon: "fas fa-dollar-sign",
       color: "bg-cyan",
       borderColor: "border-magenta"
     },
     {
       title: "Open Innovation",
       description: "Think outside the box! Create solutions for any problem you're passionate about solving.",
-      icon: "🚀",
+      icon: "fas fa-lightbulb",
       color: "bg-lime",
       borderColor: "border-yellow"
     }
@@ -60,7 +60,7 @@ const Tracks = () => {
             >
               <div className="text-center mb-6">
                 <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">
-                  {track.icon}
+                  <i className={`${track.icon} text-black`}></i>
                 </div>
                 <h3 className="text-3xl md:text-4xl font-black text-black mb-4">
                   {track.title}
