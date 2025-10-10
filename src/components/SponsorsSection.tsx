@@ -6,6 +6,7 @@ import Image5 from "../assets/ishacoffefinal.jpeg";
 import Image6 from "../assets/monster.png";
 import Image7 from "../assets/Unstop.jpg";
 import Image8 from "../assets/iblogo.png";
+import Image9 from "../assests/coffeelover.png";
 
 const sponsors = [
   { img: Image1 },
@@ -17,6 +18,7 @@ const sponsors = [
 ];
 const mainSponsor = { img: Image5 };
 const goldSponsor = { img: Image7 };
+const bevSponsor = { img: Image9 };
 
 const SponsorsSection = () => {
   return (
@@ -58,6 +60,18 @@ const SponsorsSection = () => {
           </div>
         </div>
 
+             {/* Beverage Sponsor */}
+          <div className="relative bg-white border-4 border-black shadow-bold-sm flex items-center justify-center p-6 hover:scale-105 transition-transform">
+            <img
+              src={bevSponsor.img}
+              className="object-contain w-48 h-48 md:w-52 md:h-52"
+              alt="Beverage Sponsor"
+            />
+            <span className="absolute top-3 text-black font-bold text-lg md:text-xl bg-white px-2 rounded">
+              Beverage Sponsor
+            </span>
+          </div>
+        </div>
         {/* Other Sponsors */}
         <div className="flex flex-wrap justify-center items-center gap-6 max-w-6xl mx-auto">
           {sponsors.map((sponsor, index) => (
