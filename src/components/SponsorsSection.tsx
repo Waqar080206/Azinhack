@@ -68,7 +68,7 @@ const SponsorsSection = () => {
               className="object-contain w-48 h-48 md:w-52 md:h-52"
               alt="Beverage Sponsor"
             />
-            <span className="absolute top-3 text-black font-bold text-lg md:text-xl bg-white px-2 rounded">
+            <span className="absolute top-0 left-0 right-0 text-center text-black font-bold text-lg md:text-xl bg-white py-2">
               Beverage Sponsor
             </span>
           </div>
