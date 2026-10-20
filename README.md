@@ -46,7 +46,7 @@ This event brings together students, innovators, and developers to **build impac
 - **Guru Gobind Singh Indraprastha University**
 
 ### Social Media
-- **Website**: [azinhack.xyz](https://azinhack.xyz)
+- **Website**: [azinhack.xyz](https://azinhack-smoky.vercel.app)
 - **GitHub**: [Waqar080206/Azinhack](https://github.com/Waqar080206/Azinhack)
 - **LinkedIn**: IoSC EDC GGSIPU
 
